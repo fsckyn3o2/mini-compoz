@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>&lt;mini-taskbar > Demo</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../src/mini.js"></script>
+    <script type="module" src="../src/mini-icon.js"></script>
+</head>
+<body style="margin: 0; padding: 0;">
+<table style="width:100%; height:100%">
+    <tr>
+        <td style="height:100px"><mini-icon type="file" draggable></mini-icon></td>
+        <td style="height:100px">
+            <mini-icon type="file"  draggable>
+                <div slot="content" style="">JPG</div>
+            </mini-icon>
+        </td>
+        <td style="height:100px">
+            <mini-icon src="/dev/mini-icon-src.png" size="48" draggable>
+                <div slot="content" style="position:absolute; bottom: -1em; font-size: 2em">JPG</div>
+            </mini-icon>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:100px"><mini-icon type="directory" draggable></mini-icon></td>
+        <td style="height:100px">
+            <mini-icon type="directory" draggable>
+                <div slot="content" style="">Docs</div>
+            </mini-icon>
+        </td>
+    </tr>
+    <tr>
+        <td style="height:100px"><mini-icon type="shortcut" draggable></mini-icon></td>
+        <td style="height:100px">
+            <mini-icon type="shortcut" draggable>
+                <div slot="content" style="margin-bottom: 10px">Link</div>
+            </mini-icon>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
