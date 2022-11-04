@@ -1,7 +1,8 @@
-# Web OS component with lit
+# Mini-Compoz
 
-Web OS Component is a mini library to simulate OS Component with lit framework in pure javascript.
+Mini-Compoz it's a web component library based on lit framework to simulate OS Component.
 
-This project is compiled with 'rollup' and tested with Firefox.
+
+This project is code in pure JavScript compiled/minified with 'rollup' and tested on Firefox.
 
 ## [Click to open and try](mini.html)
